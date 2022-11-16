@@ -17,7 +17,7 @@ app.get('/results',async(req,res)=>{
             // Headless option allows us to disable visible GUI, so the browser runs in the "background"
             // for development lets keep this to true so we can see what's going on but in
             // on a server we must set this to true
-            headless: true,
+            headless: false,
             // This setting allows us to scrape non-https websites easier
             ignoreHTTPSErrors: true,
         })

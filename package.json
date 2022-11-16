@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chromium": "^3.0.3",
     "express": "^4.18.2",
     "puppeteer": "^19.2.2",
     "puppeteer-autoscroll-down": "^1.1.1"
